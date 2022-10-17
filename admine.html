@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Error</title>
+    <style>
+
+        h3{
+            border: 1px solid black;
+            background-color:black;
+            color:red;
+            border-radius: 30px;
+            text-align: center;
+            align-items: center;
+
+
+
+       }
+       h4{
+        
+           font-weight: bold;
+           text-align: center;
+           align-items: center;
+       }
+    
+        .navigation{
+            background:linear-gradient( rgb(218, 189, 189), rgb(246, 52, 52),yellow);
+            font-size: 20px;
+          
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            border-radius: 20px;
+            
+        }
+        ul{
+            list-style-type:none;
+            display: flex;
+            flex-direction: row;
+           
+        }
+        ul a{
+            text-decoration: none;
+             margin: 80px;
+             margin-left: 0px;
+            text-align:center;
+            font-size: 25px;
+            font-weight: bolder;
+            
+
+            text-align: center;
+            color:black;
+            
+          
+
+
+        }
+        ul a:hover{
+            background-color: black;
+            color: white;
+            box-shadow: 2px 2px rgb(237, 77, 77);
+        }
+        .t{
+            background-color: lawngreen;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="navigation">
+  
+    <ul>
+        <li><a href="/home">Home</a>
+        <li><a href="/signup">Signup</a>
+        <li><a href="/login">Login</a>
+        <li><a href="/terms">Terms&conditions</a>
+        <li><a href="/ad">ADMIN</a>
+            
+
+    </ul>
+    
+
+</div>
+
+<div class="t">
+
+    <form action="adata" method="post">
+        <table border="1px" cellpadding="10px" align="center" cellspacing="4px">
+            <tr><td>NAME:</td><td><input type="text" name="name"></td></tr>
+            <tr><td>PASSWORD:</td><td><input type="password" name="pass"></td></tr>
+            <tr align="center"><td colspan="2"><input type="submit" value="LOGIN"></td></tr>
+        </table>
+    </form>
+
+</div>
+<div>
+    <h3 id="le">OPPs! your details are not correct </h3>
+<h4>please check it is a admin login</h4>
+
+            
+</div>
+
+
+</body>
+
+</html>

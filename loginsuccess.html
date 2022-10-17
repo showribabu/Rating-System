@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginsuccesspage</title>
+    <style>
+        .navigation{
+            background:chartreuse;
+            font-size: 20px;
+          
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            border-radius: 20px;
+        
+            
+        }
+        #ls{
+                     border: 1px solid black;
+                     background-color: rgb(84, 224, 84);
+                     color:white;
+                     border-radius: 10px;
+                     height: fit-content;
+                     margin-top: 150px;
+
+
+
+ 
+        }
+        ul{
+            list-style-type:none;
+            display: flex;
+            flex-direction: row;
+           
+        }
+        ul a{
+            text-decoration: none;
+             margin: 80px;
+             margin-left: 0px;
+            text-align:center;
+            font-size: 25px;
+            font-weight: bolder;
+            
+
+            text-align: center;
+            color:black;
+            
+          
+
+
+        }
+        ul a:hover{
+            background-color: black;
+            color: white;
+            box-shadow: 2px 2px rgb(237, 77, 77);
+        }
+        .user{
+            text-transform: capitalize;
+            background-color: rgb(234, 113, 73);
+            box-shadow: 5px 5px 5px black;
+        }
+        .user p{
+            text-transform: capitalize;
+            margin:3px;
+
+ 
+        }
+        .lbut{
+            margin-top: 100px;
+            border: 2px solid yellow;
+            background-color: burlywood;
+        }
+    
+        .lbut:hover{
+            background-color: red;
+            color:white;
+        }
+        .lbut a{
+            border:2px solid greenyellow;
+        }
+    
+    </style>
+</head>
+
+<body>
+    
+
+        <div class="navigation">
+          
+            <ul>
+                <li><a href="/home">Home</a>
+                <li><a href="/signup">Signup</a>
+                <li><a href="/login">Login</a>
+                <li><a href="/terms">Terms&conditions</a>
+                    <li><a href="/ad">ADMIN</a>
+            </ul>
+        </div>
+
+       <div class="user">
+        <h2>user details:</h2>
+        <p>Name:{{n}}</p>
+        <p>Adhar:{{a}}</p>
+
+       </div>
+       
+
+
+       <div class="lbut">
+  
+            <ul>
+                <li><a href="/balance">Balance Enquiry</a>
+                <li><a href="/trans">Transaction</a>
+                <li><a href="/status">Status</a>
+                <li><a href="/addb">ADDBalance</a>
+
+        
+    
+            </ul>
+        
+    
+        </div>
+
+        <div >
+           <p>{{t}}<p> {{b}}
+        </div>
+
+        
+
+        
+    
+        <marquee behavior="scroll" direction="left"><H3 ALIGN="CENTER" id="ls">login sucessfully</H3></marquee>
+        
+     
+
+
+
+</body>
+
+</html>
