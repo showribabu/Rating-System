@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure transaction</title>
+</head>
+<style>
+    .lbut{
+        margin-top: 50px;
+        border: 2px solid yellow;
+        background-color: burlywood;
+    }
+
+    .lbut:hover{
+        background-color: red;
+        color:white;
+    }
+    .lbut a{
+        border:2px solid greenyellow;
+    }
+    label {
+        margin-bottom: 8px;
+        display: block;
+        
+      }
+     
+      .navigation{
+        background:linear-gradient(red, yellow);
+        font-size: 20px;
+      
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        border-radius: 20px;
+    
+        
+    }
+    ul{
+        list-style-type:none;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    ul a{
+        text-decoration: none;
+         margin: 80px;
+         margin-left: 0px;
+        text-align:center;
+        font-size: 25px;
+        font-weight: bolder;
+        
+
+        text-align: center;
+        color:black;
+        
+      
+
+
+    }
+    ul a:hover{
+        background-color: black;
+        color: white;
+        box-shadow: 2px 2px rgb(237, 77, 77);
+    }
+    .trf{
+        background: linear-gradient(blue,white,red);
+    }
+
+    #le{ 
+        
+        border: 1px solid black;
+        background-color: rgb(84, 224, 84);
+        color:white;
+        border-radius: 10px;
+        height: fit-content;
+        margin-top: 50px;
+        align-items: center;
+        text-align: center;
+                 
+
+    }
+    h4{
+        font-weight: bolder;
+        align-items: center;
+        text-align: center;
+    }
+    
+</style>
+<body>
+
+    
+<div class="navigation">
+  
+    <ul>
+        <li><a href="/home">Home</a>
+        <li><a href="/signup">Signup</a>
+        <li><a href="/login">Login</a>
+        <li><a href="/terms">Terms&conditions</a>
+            <li><a href="/ad">ADMIN</a>
+
+    </ul>
+    
+
+</div>
+    <div class="lbut">
+  
+            <ul>
+                <li><a href="/balance">Balance Enquiry</a>
+                <li><a href="/trans">Transaction</a>
+                <li><a href="/status">Status</a>
+                <li><a href="/addb">ADDBalance</a>
+
+            
+        
+            </ul>
+            
+        
+     </div>
+
+
+        
+        <div class="trf">
+           
+        
+            <form action="/tdata" method="post">
+                <center>
+                    <h3 text-color="brown">PAYMENT</h3>
+                    
+                    <label> Enter Amount</label>
+                    <input type="number" name="amt"><br>
+                    <br><input type="submit" value="Continue to Pay">
+                </center>
+            </form>
+        </div>
+
+        <h3 id="le">&#10024; &#127881;Transaction Success &#10024; &#127881;</h3>
+        <h4>Thank You</h4>
+
+
+</body>
+</html>
